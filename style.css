@@ -1,0 +1,53 @@
+body{
+  background-color: lightgrey;
+}
+
+main{
+  text-align: center;
+  background-color: rgb(100, 100, 100);
+  width: 300px;
+  height: 400px; 
+
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.541);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.466);
+
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
+
+section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+ 
+}
+
+.teclado{
+  width: 100vw;
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+
+.botao{
+  padding: 10px;
+  margin: 4px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  width: 40px;
+  box-shadow: inset 1px 1px 15px rgba(0, 0, 0, 0.363);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#painel{
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  width: 190px;
+  
+}
