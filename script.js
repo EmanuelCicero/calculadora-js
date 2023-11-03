@@ -13,7 +13,7 @@ let operador = ""
 let valor1 = 0
 function atualizarOperacao(bnt){
     const display = document.getElementById('painel')
-    operador = bnt.value
+    operador = bnt.id
     valor1 = parseInt(display.value)
     display.value = '0'
 }
